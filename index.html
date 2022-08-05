@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="shortcut icon" href=".//img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href=".//style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:wght@500display=swap" rel="stylesheet">
+    <body>
+
+        
+        <!-- HAEDER         -->
+    <header class="header">
+        <div class="container__header">
+            <div class="logo">
+                <div class="logo-img"></div>
+                <h2 class="logo-title">Travel Plane</h2>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#Works">How it Works</a></li>
+                  <li class="nav-item"><a href="#Trip">Plan Your Trip</a></li>
+                  <li class="nav-item"><a href="#Destinations">Destinations</a></li>
+                  <li class="nav-item"><a href="#Stories">Travel Stories</a></li>
+                  <li class="nav-item"><a href="#Social">Social Media</a></li>
+
+            </nav>   
+            <button class="button-login"> <a href="#" id="open_pop_up_">Login</a> </button>
+         
+        
+            <div class="container_burger_shell">
+                <input type="checkbox" id="burger">
+                <label for="burger"></label>
+                <nav class="nav-burger">
+                <ul class="burger_ul">
+                    <li class="bg-li"><a href="#Works">How it Works</a></li>
+                    <li class="bg-li"><a href="#Trip">Plan Your Trip</a></li>
+                    <li class="bg-li"><a href="#Destinations">Destinations</a></li>
+                    <li class="bg-li"><a href="#Stories">Travel Stories</a></li>
+                    <li class="bg-li account"><a href="#account">Account</a></li>
+
+                    <li class="bg-li"><a href="#Social">Social media</a></li>
+                </ul>
+             </nav>
+            </div>
+            
+             <div class="pop_up">
+                <div class="pop_up_body">
+                     <h2 class="h2_pop_up">Log in your account</h2>
+                     <button class="button_google">
+                        <a href="https://www.google.ru/"><img src="./img/logo googleg 48dp.jpg" id="google" alt="google"></a>
+                        <p class="text_logo_google">Sign In with Google</p>
+                     </button>
+                     <div class="cont_or">
+                           <div class="line1"></div>
+                           <div class="or">or</div>
+                           <div class="line2"></div>
+                    </div>
+                    <button class="button_facebook">
+                        <a href="http://www.facebook.com."></a>
+                        <img src="./img/facebook_logo.svg" id="facebook" alt="facebook">
+                        <p class="text_logo_facebook">Sign In with Facebook</p>
+                     </button>
+                     <input type="email" id="login" placeholder="     Email">
+                     <p class="text_password"></p>
+                     <input type="password" name="password" id="password" placeholder="Password1">
+                     <button class="sing_in">Sing In</button> 
+                     <a class="Forgot" href="#">Forgot Your Password?</a>  
+                     <div class="line"></div>
+                     <div class="dont">Don’t have an account? <span> <a href="#">Register</a></span> </div>
+                </div>
+             </div> 
+        </div>  
+
+
+        
+        <div class="sing_pop_up">
+            <div class="sing_popup_body">
+                <h2 class="create">Create account</h2>
+                <input type="email" id="login-mini" placeholder="     Email">
+                <input type="password" name="password-mini" id="password" placeholder="     Password">
+                <button class="sing_in_mob">Sing In</button> 
+                <div class="line"></div>
+                <div class="dont">Don’t have an account? <span> <a href="#">Login in</a></span> </div>
+
+            </div>
+        </div>
+        
+    </header>
+
+    <!--MAIN-->
+<main class="main">
+
+
+    <!--Section preview-->
+    <section class="preview">
+        <div class="plan-your-trip">
+                 <h1 class="h1">Explore the beauty of <br> the World </h1>
+                 <h3 class="h3">Receive personalized recommendations for countries, motels, activities and more</h3>
+              <div class="search"> 
+                <input type="text" id="name" placeholder="What would you like to do?">
+                <button class="start-planning">Start Planning</button>               
+              </div>
+         </div>
+    </section>
+
+
+    <!--section steps-->
+        <section class="steps">
+            <h2 class="steps-to">3 STEPS TO THE PERFECT TRIP</h2>
+              <div class="container-cont">
+                <div class="card_1 card">
+                    <div class="bicycle"></div>
+                    <h4 class="tell">Tell us what you want to do</h4>
+                </div>
+                <div class="card_2 card">
+                    <div class="calendar"></div>
+                    <h4 class="share">Share us preferable dates</h4>
+                </div> 
+                <div class="card_3 card">
+                    <div class="fly"></div>
+                    <h4 class="we-will">We will give you recommendations</h4>
+                </div> 
+                
+              </div>
+        </section>
+
+
+        <!--section diststions-->
+        <section class="distination">
+            <h2 class="popular">POPULAR DESTINATIONS</h2>
+             <div class="wrapper">
+                   <input type="radio" name="point" id="slide1" checked>
+                   <input type="radio" name="point" id="slide2">
+                   <input type="radio" name="point" id="slide3">
+                   <div class="slider">
+                        <div class="slides slide1"></div>
+                        <div class="slides slide2"></div>
+                        <div class="slides slide3"></div>
+                   </div>
+                   <div class="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                   </div>
+             </div>
+           
+            <button class="button-find-more"></button>
+        </section>
+        <!--section stories-->
+
+
+        <section class="stories">
+            <h2 class="travel-stories">TRAVEL STORIES</h2>
+            <div class="four-foto">
+              <div class="container-story1">
+                     <img class="pic-story" src="./img/story1.jpg" alt="st1">
+                     <img class="pic-story-mini" src="./img/story1-mini.jpg" alt="">
+                     <div class="container-text">
+                         <h4 class="large">10 Photos of Attractive Thailand</h4>
+                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                     </div>
+               </div>
+                <div class="container-story2">     
+                      <img class="pic-story" src="./img/story2.jpg" alt="st2">
+                      <img class="pic-story-mini" src="./img/story2-mini.jpg" alt="">
+
+                      <div class="container-text">
+                           <h4 class="large">Canyonlands National Park, Utah</h4>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                     </div>
+                </div>
+                <div class="container-story3">  
+                      <img class="pic-story" src="./img/story3.jpg" alt="st3">
+                      <img class="pic-story-mini" src="./img/story3-mini.jpg" alt="">
+
+                      <div class="container-text">
+                            <h4 class="large">I left my heart in the Mountains!</h4>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                     </div>
+                </div>
+                <div class="container-story4">
+                      <img class="pic-story" src="./img/story4.jpg" alt="st4">
+                      <img class="pic-story-mini" src="./img/story4-mini.jpg" alt="">
+
+                      <div class="container-text">
+                            <h4 class="large">The Longest journey in my life!</h4>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                      </div>
+                </div>
+            </div>
+            <button class="button-see-more"></button>
+
+            
+        </section>
+</main>
+
+
+
+<!--Footer-->
+    <footer class="footer">
+         <div class="container-footer"> 
+         <p class="all-rights">All Rights Reserved © Travel Portal</p>
+           <ul class="social-media">
+              <li class="fot-li"><a href="https://instagram.com/"><img src="./img/insta.svg" alt="instagram"></a></li>
+              <li class="fot-li"><a href="https://www.youtube.com/"><img src="./img/youtube.svg" alt="youtube"></a></li>
+              <li class="fot-li"><a href="https://twitter.com/"><img src="./img/twit.svg" alt="twitter"></a></li>                
+           </ul>
+        <div></div>
+        </div>
+        </footer>
+ 
+        <script src="./index.js"></script>
+    </body>
+</html>
